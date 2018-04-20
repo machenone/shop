@@ -1,0 +1,10 @@
+<div class="container reviews">
+  <h2 class="h2">Отзывы</h2>
+  <div class="reviews-block">
+  	<review-item *ngFor="let review of reviews" [userName]="review.userName" [reviewText]="review.reviewText"></review-item>
+<!--     <review-item></review-item>
+    <review-item></review-item>
+    <review-item></review-item>
+    <div *ngFor="let review of reviews">{{review.reviewText}}</div>
+ -->  </div>
+</div>

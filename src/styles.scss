@@ -1,0 +1,91 @@
+  /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.h2 {
+  margin-bottom: 25px;
+}
+
+.navbar {
+  &__custom {
+    z-index: 9999;
+  }
+}
+
+.container {
+  &__intro {
+    height: 100%;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.h1 {
+  &__intro {
+    font-size: 60px;
+  }
+}
+
+.intro {
+  &-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  &-wrapper {
+    width: 70%;
+    height: 30%;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.text-block {
+  &__intro {
+    font-size: 20px;
+  }
+}
+
+.reviews {
+  &-block {}
+}
+
+.review {
+  @extend .col-lg-6;
+  margin: 10px 0 10px;
+  display: flex;
+
+  &_photo-container {
+    width: 120px;
+    min-width: 120px;
+  }
+  &_text-container {
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  &_photo {
+    width: 100%;
+    height: auto;
+  }
+  &_name {
+    font-weight: bold;
+  }
+}
+
+.product {
+  &_photo-container {
+    width: 165px;
+    min-width: 165px;
+  }
+}

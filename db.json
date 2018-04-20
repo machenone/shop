@@ -1,0 +1,45 @@
+{
+  "reviews": [
+  {
+    "id": 0,
+    "userName": "Юзер 0",
+    "reviewText": "some text 1"
+  },
+  {
+    "id": 1,
+    "userName": "Юзер 1",
+    "reviewText": "some text 2"
+  },
+  {
+    "id": 2,
+    "userName": "Юзер 2",
+    "reviewText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, aliquid, asperiores! Officiis dicta, eum non?"
+  }],
+  "catalog": [
+    {
+      "id": 0,
+      "name": "Молоко",
+      "shortDesc": "Короткое описание молока",
+      "fullDesc": "Наше молоко бла бла бла Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam earum odit, dolor quos provident nisi laudantium laborum aspernatur perspiciatis deserunt alias rem. Obcaecati, est, odio."
+    },
+    {
+      "id": 1,
+      "name": "Примус",
+      "shortDesc": "Короткое описание примуса",
+      "fullDesc": "Наш примус бла бла бла Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam earum odit, dolor quos provident nisi laudantium laborum aspernatur perspiciatis deserunt alias rem. Obcaecati, est, odio."
+    },
+    {
+      "id": 2,
+      "name": "Сборник диких байанов",
+      "shortDesc": "Короткое описание нашего унылого сборника",
+      "fullDesc": "Наш унылый сборник бла бла бла Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam earum odit, dolor quos provident nisi laudantium laborum aspernatur perspiciatis deserunt alias rem. Obcaecati, est, odio."
+    },
+    {
+      "id": 3,
+      "name": "Молоко 2",
+      "shortDesc": "Короткое описание молока",
+      "fullDesc": "Наше молоко бла бла бла Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam earum odit, dolor quos provident nisi laudantium laborum aspernatur perspiciatis deserunt alias rem. Obcaecati, est, odio."
+    }
+
+  ]
+}

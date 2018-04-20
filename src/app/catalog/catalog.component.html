@@ -1,0 +1,7 @@
+<div class="container catalog">
+  <h2 class="h2">Каталог товаров</h2>
+  <div class="product-block">
+  	<product *ngFor="let item of catalog" [name]="item.name" [shortDesc]="item.shortDesc" [id]="item.id"></product>
+  	<!-- <review-item *ngFor="let review of reviews" [userName]="review.userName" [reviewText]="review.reviewText"></review-item> -->
+  </div>
+</div>
